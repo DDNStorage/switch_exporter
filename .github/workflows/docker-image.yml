@@ -28,7 +28,7 @@ jobs:
          
       - name: Build switch_exporter Image
         run : |
-          docker build \
+          docker build buildx \
              --tag quay.io/red/kubernetes:switch_exporter \
              --output "type=image,push=true" \
              -f Dockerfile .
