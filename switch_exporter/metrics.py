@@ -1,6 +1,7 @@
 COUNTERS = {
     'packets', 'multicast packets', 'unicast packets', 'broadcast packets',
-    'bytes', 'error packets', 'discard packets'
+    'bytes', 'error packets', 'discard packets', 'packets of 64 bytes', 'packets of 65-127 bytes', 
+    'packets of 128-255', 'packets of 256-511'
 }
 
 
