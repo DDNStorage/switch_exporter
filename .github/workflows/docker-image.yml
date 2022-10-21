@@ -1,8 +1,7 @@
 name: switch_exporter
 
-on:
-  workflow_dispatch:
-
+on: push
+  
 jobs:
   switch_exporter:
     name: switch_exporter image
